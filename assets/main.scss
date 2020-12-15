@@ -1,0 +1,30 @@
+//VARIABLES
+@import 'helpers/variables'; //En este archivo se alojan todas nuestras variables de la página web
+
+//RESETPAGE
+@import 'base/base';
+
+//HEADER
+@import 'layaout/header';
+
+//BODY PAGE
+@import 'layaout/section',
+        'layaout/content',
+        'layaout/footer';
+
+//TRENDS PAGE
+@import 'pages/trends/content-trends';
+
+//CONTACT PAGE
+@import 'pages/contact/contact';
+
+//ABOUT PAGE
+@import 'pages/about/about',
+        'pages/about/about-section2';
+
+//RANK PAGE
+@import 'pages/ranking/ranking-section';
+
+//BUTTONS
+@import 'components/buttons';
+
