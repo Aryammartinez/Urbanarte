@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trends</title>
+    <title>Tendencias</title>
     <!--TYPOGRAFY-->
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet"><!--NAV TYPOGRAFY-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet"> <!--BODY TYPOGRAFY-->
@@ -18,29 +18,28 @@
     <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/css/bootstrap.css">
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--SCROLL-->
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/app.js" defer></script>
+
 </head>
 <body>
-<header>
-        <div class="menu">
-            <div class="logo">
-                <a href="index.html"><img src="/assets/images/logotype-urbanarte.png" alt=""></a>
-            </div>
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="trends.html">Tendencias</a>
-                <a href="ranking.html">Ranking</a>
-                <a href="aboutus.html">Nosotros</a>
-                <a href="contact.html">Contacto</a>
-            </nav>
-            <div class="social-media">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
-            </div>
-        </div>
-</header>
 
-    
+<nav class="menu">
+    <img class="logo" src="assets/images/logotype-urbanarte.png" alt="">
+    <ul class="menu_items">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="trends.html">Tendencias</a></li>
+        <li><a href="ranking.html">Ranking</a></li>
+        <li><a href="aboutus.html">Nosotros</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+    </ul>
+    <span class="btn_menu">
+        <i class="fa fa-bars"></i>
+    </span>
+</nav>
+        
 <section class="section-trends"> 
     <div class="container-trends">
         <div class="container-img">
@@ -51,7 +50,7 @@
             <p>La música en vivo ha sido una de las expresiones artísticas más golpeadas por la pandemia. En Chile, se estima su regreso de modo paulatino para septiembre u octubre, aunque se prevé que la normalidad en la cartelera recién llegaría en 2021. Un especialista dijo en The New York Times que lo recomendable sería a partir del segundo semestre del próximo año.</p>
             <div class="center-button">
                 <a href="https://www.latercera.com/la-tercera-pm/noticia/cuando-volveran-los-conciertos-la-industria-apuesta-por-septiembre-y-los-especialistas-piden-cautela/RSS6EZQOE5CFNJ6HIDG237FH7E/"><button class="btn btn--1">
-                    ver más
+                    ver
                   </button></a>
             </div>
         </div>
@@ -75,9 +74,6 @@
         <a href="https://open.spotify.com/user/z8btcpeb7rbady39al5lwqdqb/playlist/4MFl0Wk3K6CYQNTG2Dzjo7?si=qXMZgGEjSjGYDz62ks_jIg"><i class="fab fa-spotify"></i></a>
     </div>
 </section>
-
-
-
 
 <footer>
         <div class="container-footer">
@@ -124,5 +120,7 @@
             </div>
         </div>
 </footer>
+
+<script src="js/trends.js"></script>
 </body>
 </html>

@@ -4,26 +4,40 @@
 //RESETPAGE
 @import 'base/base';
 
+//NAVBAR
+@import 'layaout/navbar/navbar',
+        'layaout/navbar/reponsive-navbar' ;
 //HEADER
-@import 'layaout/header';
+@import 'layaout/header/header',
+        'layaout/header/responsive-header';
 
 //BODY PAGE
-@import 'layaout/section',
-        'layaout/content',
-        'layaout/footer';
+@import 'layaout/contenido/section',
+        'layaout/contenido/content',
+        'layaout/contenido/responsive-content',
+        'layaout/contenido/responsive-section';
+
+//FOOTER
+@import 'layaout/footer/footer',
+        'layaout/footer/reponsive-footer';
 
 //TRENDS PAGE
-@import 'pages/trends/content-trends';
+@import 'pages/trends/content-trends',
+        'pages/trends/reponsive-trends';
 
 //CONTACT PAGE
-@import 'pages/contact/contact';
+@import 'pages/contact/contact',
+        'pages/contact/reponsive-contact';
 
 //ABOUT PAGE
 @import 'pages/about/about',
-        'pages/about/about-section2';
+        'pages/about/about-section2',
+        'pages/about/reponsive-about';
+
 
 //RANK PAGE
-@import 'pages/ranking/ranking-section';
+@import 'pages/ranking/ranking-section',
+        'pages/ranking/reponsive-rank';
 
 //BUTTONS
 @import 'components/buttons';

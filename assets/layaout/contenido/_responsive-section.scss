@@ -1,0 +1,38 @@
+@media screen and (max-width: 952px) {
+    .section_music{
+        .articulos{
+            .articulo-left{
+                img{
+                    align-self: flex-start;
+                    width: 30%;
+                }
+            }
+            .articulo-right{
+                img{
+                    align-self: flex-start;
+                    width: 30%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .section_music{
+        .articulos{
+            .articulo-left{
+                margin:0 auto;
+
+                width: 100%;
+                img{
+                    width: 40%;
+                }
+            }
+            .articulo-right{
+                img{
+                    width: 40%;
+                }
+            }
+        }
+    }
+}

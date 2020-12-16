@@ -1,0 +1,44 @@
+@media screen and (max-width: 950px) {
+    .section_rank{
+        .container_rank{
+            .images_rank{
+                img{
+                    width: 80%;
+                }
+            }
+            .text_rank{
+                width: 60%;
+                h2{
+                    font-size: 40px;
+                }
+                p{
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section_rank{
+        .container_rank{
+            height: 800px;
+            flex-direction: column-reverse;
+            .images_rank{
+                margin-left: 100px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section_rank{
+        .container_rank{
+            .text_rank{
+                margin-top: 10px;
+                width: 80%;
+            }
+        }
+    }
+}

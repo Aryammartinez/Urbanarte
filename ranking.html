@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rank</title>
+    <title>Ranking</title>
     <!--TYPOGRAFY-->
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet"><!--NAV TYPOGRAFY-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet"> <!--BODY TYPOGRAFY-->
@@ -16,29 +16,29 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--SCROLL-->
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/app.js" defer></script>
+
 </head>
 <body>
-    <header>
-        <div class="menu">
-            <div class="logo">
-                <a href="index.html"><img src="/assets/images/logotype-urbanarte.png" alt=""></a>
-            </div>
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="trends.html">Tendencias</a>
-                <a href="ranking.html">Ranking</a>
-                <a href="aboutus.html">Nosotros</a>
-                <a href="contact.html">Contacto</a>
-            </nav>
-            <div class="social-media">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
-            </div>
-        </div>
-    </header>
 
-    <div class="section_rank">
+<nav class="menu">
+        <img class="logo" src="assets/images/logotype-urbanarte.png" alt="">
+        <ul class="menu_items">
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <li><a href="trends.html">Tendencias</a></li>
+            <li><a href="ranking.html">Ranking</a></li>
+            <li><a href="aboutus.html">Nosotros</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+        <span class="btn_menu">
+            <i class="fa fa-bars"></i>
+        </span>
+</nav>
+
+<div class="section_rank">
         <div class="container_rank">
             <div class="images_rank">
                 <img src="/assets/images/Estadistica-rank.png" alt="">
@@ -50,9 +50,9 @@
                 <p>La comunidad de "Urbanarte" posicionará a estos artitas según el criterio coherente de cada usuario. Suma puntos si los artistas se mantiene creando un buen contenido o saben interactuar con su fandom.</p>
             </div>
         </div>
-    </div>
+</div>
 
-    <footer>
+<footer>
         <div class="container-footer">
             <div class="footer-left">
                 <div class="text-footer">
@@ -96,6 +96,8 @@
                     </div>
             </div>
         </div>
-    </footer>
+</footer>
+
+<script src="js/ranking.js"></script>
 </body>
 </html>

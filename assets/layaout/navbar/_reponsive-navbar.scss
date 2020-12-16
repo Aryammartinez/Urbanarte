@@ -1,0 +1,39 @@
+@media screen and (max-width:858px) {
+    .menu{
+        height: 65px;
+        .btn_menu{
+            font-size: 30px;
+            margin-right: 20px;
+            display: inline-flex;
+        }
+        .logo{
+            width: 10%;
+        }
+        .menu_items{
+            position: fixed;
+            width: 100%;
+            height: calc(100% -65px);
+            background:rgb(190, 190, 190);
+            top:-100vh;
+            text-align: center;
+            transition: all .4s;
+            flex-direction: column;
+            li{
+                margin: 30px 0 0 0;
+                line-height: 30px;
+                a{
+                    font-size:20px;
+                    color: #fff;
+                    font-weight: bold;
+                }
+                a:hover{
+                    color: #e9183b;
+                }
+                
+            }
+            li:hover{
+                background: none;
+            }
+        }
+    }
+}
